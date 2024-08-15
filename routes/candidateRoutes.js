@@ -3,7 +3,7 @@ const router = express.Router();
 const User = require('../models/user');
 const {jwtAuthMiddleware, generateToken} = require('../jwt');
 const Candidate = require('../models/candidate');
-
+//This command is added by Punam
 
  const checkAdminRole = async (userID) => {
    try{
